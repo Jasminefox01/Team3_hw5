@@ -10,20 +10,6 @@
 - 利用標註資料訓練機器學習模型（SVM / Random Forest）以判斷是否跌倒
 - 將模型部署至 Raspberry Pi，實現即時偵測與視覺警示輸出
 
----
-
-## 🧩 專案架構
-
-HW5_FALL_DETECTION/
-├── RandomForest/
-│ ├── fall_detect_rf.py # 模型訓練程式（使用 Random Forest）
-│ ├── pose_train_data.csv # 已標註的關鍵點訓練資料
-│ ├── rf_fall_model.pkl # 訓練完成的模型檔
-│ └── rf_scaler.pkl # 特徵標準化模型
-├── Pi4/
-│ └── camera_stream_rf.py # Raspberry Pi 部署用 Flask 串流偵測系統
-
----
 
 ## 🧪 PC上進行模型訓練與測試
 
